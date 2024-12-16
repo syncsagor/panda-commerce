@@ -85,3 +85,22 @@ button {
   border-radius: 10px;
   box-shadow: 5px 5px 10px lightgray;
 }
+
+.contact p {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact form-control:valid {
+  background-color: #f0efef !important;
+}
+.contact input {
+  border: none;
+  padding: 10px 30px;
+}
+.contact input:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
