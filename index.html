@@ -3,21 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-
-    <link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Panda Commerce</title>
   </head>
   <body>
     <div class="container">
       <!-- Image and text -->
-      <nav class="navbar navbar-light bg-light d-flex p-4">
+      <nav class="navbar navbar-light d-flex flex-row">
         <a class="navbar-brand" href="#">
           <img src="images/logo.png" alt="logo" />
         </a>
         <form class="form-inline flex-grow-1 p-4">
           <input
-            class="form-control mr-sm-2 border-0"
+            class="form-control py-2 px-4 rounded-5 mr-sm-2 border-0 search-input"
             type="search"
             placeholder="Search"
             aria-label="Search"
@@ -41,7 +40,204 @@
         </ul>
       </nav>
     </div>
-    <script src="bootstrap/js/bootstrap.bundle.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+    <div class="container banner-container">
+        <div id="carouselExampleAutoplaying" class="carousel slide bg-pink" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row align-items-center">
+        <div class="col-7">
+          <h2>Mi LED TV 4A PRO 32</h2>
+          <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor
+do amet sint. Velit officia consequat duis enim velit mollit.
+Exercitation veniam consequat sunt nostrud amet.</p>
+<h4>$1289</h4>
+<Button>Buy Now</Button>
+        </div>
+        <div class="col-5">
+          <img src="./images/banner/tv.png" class="d-block w-100" alt="First Images">
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row align-items-center">
+        <div class="col-7">
+          <h2>Cool Dude Headphone</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam tempora nostrum rerum omnis porro nulla laborum harum, labore libero sunt!</p>
+          <h4>$420</h4>
+          <button>Buy Now</button>
+        </div>
+        <div class="col-5">
+          <img src="./images/banner/headphone.png" class="d-block w-100" alt="First Images">
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row align-items-center">
+        <div class="col-7">
+          <h2 class="">X-Box for your living room</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto laborum voluptate odit voluptatem ipsum nesciunt?</p>
+          <h4>$610</h4>
+          <button>Buy Now</button>
+        </div>
+        <div class="col-5">
+          <img src="./images/banner/xbox.png" class="d-block w-100" alt="First Images">
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
+
+    <div class="container categories">
+      <h3 class="mb-4">Categories</h3>
+  <div class="row">
+    <div class="col-4">
+     <div class="cat-1 d-flex align-items-center justify-content-around">
+       <h3>Watch</h3>
+      <img src="./images/categories/watch.png" alt="watch">
+     </div>
+    </div>
+    <div class="col-4">
+      <div class="cat-2 d-flex align-items-center justify-content-around">
+           <h3>Bag</h3>
+      <img src="./images/categories/bag.png" alt="bag">
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="cat-3 d-flex align-items-center justify-content-around">
+           <h3>Shoes</h3>
+      <img src="./images/categories/shoes.png" alt="shoes">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container shoes">
+  <h3 class="mb-4">Shoes</h3>
+
+<div class="card-deck row">
+ <div class="card-1 col-4">
+   <div class="card">
+    <div class="card-1">
+      <img class="card-img-top" src="./images/shoes/shoe-1.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Supply 350</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+       <h4>$120</h4>
+<button>Buy Now</button>
+    </div>
+    </div>
+  </div>
+ </div>
+<div class="card-2 col-4">
+    <div class="card">
+   
+     <img class="card-img-top" src="./images/shoes/shoe-2.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Nike 360</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+       <h4>$320</h4>
+<button>Buy Now</button>
+    </div>
+  
+  </div>
+</div>
+  <div class="card-3 col-4">
+     <div class="card">
+
+      <img class="card-img-top" src="./images/shoes/shoe-3.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Red Airmax</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+       <h4>$350</h4>
+<button>Buy Now</button>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+    
+  </div>
+  </div>
+</div>
+
+
+</div>
+
+
+<div class="container backpack">
+  <h3 class="mb-4">Backpack</h3>
+<div class="card-deck row">
+ <div class="card-1 col-4">
+   <div class="card">
+    <div class="card-1">
+      <img class="card-img-top" src="./images/bags/bag-1.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Red Laltu Bag</h5>
+      <h4>$120</h4>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      
+<button>Buy Now</button>
+    </div>
+    </div>
+  </div>
+ </div>
+<div class="card-2 col-4">
+    <div class="card">
+   
+     <img class="card-img-top" src="./images/bags/bag-2.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Nil Niltu Bag</h5>
+       <h4>$220</h4>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      
+<button>Buy Now</button>
+    </div>
+  
+  </div>
+</div>
+  <div class="card-3 col-4">
+     <div class="card">
+
+      <img class="card-img-top" src="./images/bags/bag-3.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Kalo Kaltu</h5>
+      <h4>$320</h4
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+       
+<button>Buy Now</button>
+    </div>
+    
+  </div>
+  </div>
+</div>
+
+
+</div>
+
+
+
+<div class="container contact">
+  <div class="mail-form d-flex flex-lg-column align-items-center justify-content-center">
+    <h2>Let's stay in touch</h2>
+    <p>Get updates on sales and special more</p>
+    <input type="email" name="" id="">
+    <button type="submit">Submit</button>
+  </div>
+</div>
+
+  
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
