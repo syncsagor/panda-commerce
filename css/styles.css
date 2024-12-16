@@ -104,3 +104,17 @@ button {
   border: none;
   box-shadow: none;
 }
+
+footer p {
+  text-align: center;
+}
+
+@media (max-width: 991.98px) {
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  p {
+    width: 100%;
+  }
+}
